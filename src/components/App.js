@@ -19,16 +19,16 @@ function handleClick2(){
     <div>
         {/* Do not remove the main div */}
         <ul>
-          <li onChange={handleClick}>Tab 1</li>
-           <li onChange={handleClick}>Tab 2</li>
-            <li onChange={handleClick}>Tab 3</li>
+          <li onClick={handleClick}>Tab 1</li>
+           <li onClick={handleClick}>Tab 2</li>
+            <li onClick={handleClick}>Tab 3</li>
 
         </ul>
         <p>Content for {tab}</p>
         <ul>
-          <li onChange={handleClick2}>Tab A</li>
-          <li onChange={handleClick2}>Tab B</li>
-          <li onChange={handleClick2}>Tab C</li>
+          <li onClick={handleClick2}>Tab A</li>
+          <li onClick={handleClick2}>Tab B</li>
+          <li onClick={handleClick2}>Tab C</li>
         </ul>
         <p>Content for {tab2}</p>
     </div>
