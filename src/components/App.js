@@ -6,10 +6,10 @@ const App = () => {
 const [tab,setTab]=useState("Tab 1");
 const [tab2,setTab2]=useState("Tab A");
 
-function handleClick(){
+function handleClick(e){
   setTab(e.target.innerText);
 }
-function handleClick2(){
+function handleClick2(e){
   setTab2(e.target.innerText);
 }
 
